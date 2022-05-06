@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(el2);
 });
 
+
 console.log(this);
 
 class changeTxt {
