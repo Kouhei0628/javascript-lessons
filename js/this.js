@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(el2);
 });
 
-//thisは場所によって参照先が違う
+
 console.log(this);
 
 class changeTxt {
