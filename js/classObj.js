@@ -5,7 +5,7 @@ const fruit = {
         console.log(this); //fruitを参照
         window.setTimeout(function() {
             console.log(this)
-        }.bind({ name: "dorian" })); //thisの値を束縛する。アロー関数で指定するとなぜかbind()できないので注意。
+        }.bind({ name: "durian" })); //thisの値を束縛する。アロー関数は暗黙的にbindしてくれるので注意。
     }
 }
 
