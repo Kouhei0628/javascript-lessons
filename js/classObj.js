@@ -26,7 +26,7 @@ fruit.logStr();
 // fruit2.logStr();
 
 ////////クラス継承
-class Myfruit2 extends MyFruit { //クラスを継承する
+class Myfruit2 extends MyFruit { //extendsでクラスを継承する
     constructor() {
         super(); //親のコンストラクタが呼び出される
     }
