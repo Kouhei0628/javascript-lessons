@@ -30,6 +30,7 @@ class scrollObserver {
         };
         this.io = new IntersectionObserver(callback.bind(this), this.options);
         this.io.POLL_INTERVAL = 100; //polyfillはintersectionobserverがブラウザ対応していない時のための代替scoll監視機能
+        //m秒で監視インターバルを設定する
         this.els.forEach((el) => this.io.observe(el));
     }
     destroy() {
